@@ -1,0 +1,123 @@
+body {
+    text-align:center;
+    box-sizing:border-box;
+    margin:0;
+    top: 0;
+    background-color: brown;
+    background-image: url('/assets/robertas.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    cursor: url(https://cur.cursors-4u.net/food/foo-2/foo165.cur), auto !important;
+    color: #4a5054;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+* {
+    box-sizing: inherit;
+}
+h1, h2, h3 {
+    font-family: 'Bebas Neue', cursive;
+}
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    margin: 10px;
+}
+.links {
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    border: 1px solid #d7e0ef;
+    border-radius: 6px;
+    margin: 4px;
+    transition: background-color .7s ease;
+    display:inline-block;
+    background-color: green;
+    font-family: sans-serif
+}
+
+.links:hover {
+    background-color: #d7e0ef;
+}
+.bodyContainer, .headerContainer {
+    width: 60%;
+    margin: auto;
+    background-color: white;
+}
+
+.headerContainer {
+    position: -webkit-sticky;
+	position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index:5;
+}
+
+.hidden {
+    display: none;
+}
+
+.names {
+    width: 80%;
+}
+
+.bodyContainer {
+    padding: 0 10px;
+    min-height: 100vh;
+
+}
+.silouette {
+    top: 0;
+    position: absolute;
+    z-index:10;
+}
+.amanda { 
+    left: 75%;
+}
+.evan {
+    right: 75%;
+}
+.silouette img {
+    width: 200px;
+    height: 99vh;
+}
+
+.nav_links {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 70px;
+    padding-top: 20px;
+    background: white;
+}
+.whenText {
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width: 1200px) {
+    .nav_links {
+        top: 55px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .nav_links {
+        top: 40px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .bodyContainer, .headerContainer {
+        width: 80%;
+    }
+    .names {
+        width: 90%;
+    }
+    .nav_links {
+        top: 40px;
+    }
+    .silouette {
+        display: none;
+    }
+}
