@@ -18,10 +18,10 @@ body {
     box-sizing: inherit;
 }
 h1, h2, h3 {
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bebas Neue', sans-serif;
 }
 h1 {
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bebas Neue', sans-serif;
     margin: 10px;
 }
 .links {
@@ -44,6 +44,7 @@ h1 {
     width: 60%;
     margin: auto;
     background-color: white;
+    font-family: sans-serif
 }
 
 .headerContainer {
@@ -70,7 +71,7 @@ h1 {
 }
 .silouette {
     top: 0;
-    position: absolute;
+    position: fixed;
     z-index:10;
 }
 .amanda { 
@@ -93,6 +94,20 @@ h1 {
 }
 .whenText {
     margin-bottom: 0;
+}
+
+.schedule-container {
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: left;
+    max-width: 250px;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 18px;
+    display: inline-block;
+}
+.time {
+    font-size: 24px;
+    padding-right: 10px
 }
 
 @media only screen and (max-width: 1200px) {
