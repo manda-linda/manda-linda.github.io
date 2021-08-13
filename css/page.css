@@ -38,7 +38,7 @@ h1 {
 }
 
 .links:hover {
-    background-color: #d7e0ef;
+    background-color: darkgreen;
 }
 .bodyContainer, .headerContainer {
     width: 60%;
@@ -88,7 +88,7 @@ h1 {
 .nav_links {
 	position: -webkit-sticky;
 	position: sticky;
-	top: 70px;
+	top: 75px;
     padding-top: 20px;
     background: white;
 }
@@ -135,4 +135,19 @@ h1 {
     .silouette {
         display: none;
     }
+}
+
+.faq {
+    margin: 16px;
+    text-align: left;
+}
+
+.faq-question {
+    font-size: 16px;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.faq-answer {
+    font-size: 14px;
 }
